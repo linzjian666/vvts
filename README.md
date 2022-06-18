@@ -34,7 +34,7 @@
 
 ![dy8werhf89rei4r8w30o9ikurfdoyyg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKrUdq_-sFjPVBu_cwjio86yVyVLpPViIxi5xELvOPjWdgDvZFDPisCIlgI33_8UflafUxmUOZRSEZsYXXSpS3ZYu9Iza0aNpUq0jx8mJR0vNQbnsf4Z8elOjw3X8rTdaRJmaVEz0yLjzFtdDtfqSSvmxLs3CIxCID0xClrLoPlDr9E1jEqFA6G--PlA/s973/888.png)
 
-## 二、客户端配置如下
+## 三、客户端配置如下
 
 IOS端小火箭就可以通吃，安卓端推荐V2rayNG或搭配Kitsunebi
 
