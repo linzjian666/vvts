@@ -1,6 +1,3 @@
-## 点击下面按钮开始部署
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) 
 
 ### 请勿fork，请勿fork，请勿fork，点个Star就好了
 
@@ -18,9 +15,10 @@
 
 ## 一、操作步骤：
 
-1、在浏览器复制链接   https://dashboard.heroku.com/new?template= 加上你自定义的项目链接
+1、点击下面按钮开始部署
 
-https://dashboard.heroku.com/new?template=https://github.com/nezhahd/heroku-vlvmtw
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) 
+
 
 2、之前没有登录记录的话，会先提示注册并或登录Heroku界面，大家自己注册或者登录下
 
@@ -34,13 +32,9 @@ https://dashboard.heroku.com/new?template=https://github.com/nezhahd/heroku-vlvm
 
 -------------------------------------------------------------------------------------------
 
-## 二、关于为什么套CF以及满足自选IP/域名的条件解答（TLS开启）
 
+## 二、客户端配置如下（V2rayN）
 
-
-## 三、客户端配置如下（V2rayN）
-
-22.6.17待更新
 
 协议：(vless/vmess/trojan)-ws
 
