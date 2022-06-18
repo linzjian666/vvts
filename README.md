@@ -1,61 +1,7 @@
+### 关注甬哥项目https://gitlab.com/rwkgyg/
 
-### 请勿fork，请勿fork，请勿fork，点个Star就好了
-
-直接点击绿色的`Use this template`创建自己名称的项目，workers反代与pages反代及自定义域，配置文件信息等相关操作拓展教程，请关注：[博客视频教程](https://ygkkk.blogspot.com/2022/05/heroku-cloudflare-workers-pages.html)
-
-## 注意事项
-
-0）**最新** Cloudflare Page域名还没被SNI阻断，利用[此项目](https://github.com/xyTom/cf-page-func-proxy)可利用CF Pages反代。（无需自定义域名）
-
-1）2022年5月8日晚，CloudFlare Workers 的业务域名 Workers.dev 被防火长城 DNS 污染、SNI阻断。
-
-2）CloudFlare Workers，可自定义workers域名；经过添加自定义域名，更换Host和SNI后已可正常使用。
-
-3）接入点可以直接使用自选IP域名`uicdn.cf`，每30分钟更新一次。
-
-## 一、操作步骤：
-
-1、点击下面按钮开始部署
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) 
-
-
-2、之前没有登录记录的话，会先提示注册并或登录Heroku界面，大家自己注册或者登录下
-
-
-
-3、Heroku app名称与国家随意，最后设置图如下
-
-
-
-4、输入UUID，建议使用V2rayN等工具生成，点击Deploy app，几秒种后就完成安装。
-
--------------------------------------------------------------------------------------------
-
-
-## 二、客户端配置如下（V2rayN）
-
-
-协议：(vless/vmess/trojan)-ws
-
-地址：app.heroku.com（自选IP/域名）
-
-端口：443
-
-用户ID/密码：自定义的UUID
-
-传输协议：ws
-
-伪装host：app.heroku.com（workers或pages反代/自定义域）
-
-路径path：留空或填/
-
-传输安全：tls
-
-SNI：app.heroku.com（workers或pages反代/自定义域）
-
-其他设置保持默认不变！！！
-
+### 请下载以上代码，使用Github进行代码托管并连接heroku
+![c14a9fd3dfe0361393dcc7cd693cc36](https://user-images.githubusercontent.com/107276912/173172932-142f6c9a-7f7f-424b-a178-aa43772a7511.png)
 
 
 ### workers反代与pages反代及自定义域，配置文件信息等相关操作拓展教程，请关注：[博客视频教程](https://ygkkk.blogspot.com/2022/05/heroku-cloudflare-workers-pages.html)
@@ -189,3 +135,10 @@ addEventListener(
 )
 ```
 </details>
+
+### 感谢以下项目所提供的参考
+
+https://github.com/mixool/xrayku  （已删库）
+
+https://github.com/Cptmacmillan2022007/IX-X2VW
+

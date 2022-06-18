@@ -42,7 +42,7 @@ inbounds:
   streamSettings:
     network: ws
     wsSettings:
-      path: /UUID-ss
+      path: /UUID-sh
   sniffing:
     enabled: true
     destOverride:
@@ -57,6 +57,22 @@ inbounds:
     network: ws
     wsSettings:
       path: /UUID-tr
+  sniffing:
+    enabled: true
+    destOverride:
+    - http
+    - tls
+- port: 52123
+  protocol: socks
+  settings:
+    auth: noauth
+    accounts:
+    - user: UUID
+      pass: UUID
+  streamSettings:
+    network: ws
+    wsSettings:
+      path: /UUID-so
   sniffing:
     enabled: true
     destOverride:
