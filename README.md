@@ -30,8 +30,10 @@
 
 -------------------------------------------------------------------------------------------
 
-关于为什么套CF以及满足自选IP/域名的条件解答（443端口，且TLS开启）
-## 二、
+
+## 二、Cloudflare http 80端口自选IP域名，绕过SNI阻断，Cloudflare workers直连复活，无须自定义域名路由
+
+某大佬总结：80端口无TLS协议，没有TLS就没有SNI。这样就不会被 SNI阻断。适合vmess，ss自带加密的协议，vless与trojan也可以，但就是明文流量，不安全。没有TLS还有个好处就是没有TLS握手，就能降低延迟。
 ![dy8werhf89rei4r8w30o9ikurfdoyyg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ4vfNGfWV-HWJr48Lr_YZA-9h7dRP7UUJYjMh_fA6UCNbLNKS3U_bew7cijWXL6rthsPLaY98UtyoF_Kp95Y2IOI70TxMRB9fTzEs4H8V85tSe6FZU2Nijs6_8al5SQI7dXkDzz6wov9BJfAIG6R9QQRztWFAM0CsaB6jpH_9n12EOQf-5CNxViHGew/w634-h356/%E5%B0%81%E9%9D%A2%E5%9B%BE-002.JPG)
 
 ## 三、客户端配置如下
