@@ -30,9 +30,9 @@
 
 -------------------------------------------------------------------------------------------
 
-## 二、关于为什么套CF以及满足自选IP/域名的条件解答（443端口，且TLS开启）
+关于为什么套CF以及满足自选IP/域名的条件解答（443端口，且TLS开启）
 
-![dy8werhf89rei4r8w30o9ikurfdoyyg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKrUdq_-sFjPVBu_cwjio86yVyVLpPViIxi5xELvOPjWdgDvZFDPisCIlgI33_8UflafUxmUOZRSEZsYXXSpS3ZYu9Iza0aNpUq0jx8mJR0vNQbnsf4Z8elOjw3X8rTdaRJmaVEz0yLjzFtdDtfqSSvmxLs3CIxCID0xClrLoPlDr9E1jEqFA6G--PlA/s973/888.png)
+## 二、![dy8werhf89rei4r8w30o9ikurfdoyyg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ4vfNGfWV-HWJr48Lr_YZA-9h7dRP7UUJYjMh_fA6UCNbLNKS3U_bew7cijWXL6rthsPLaY98UtyoF_Kp95Y2IOI70TxMRB9fTzEs4H8V85tSe6FZU2Nijs6_8al5SQI7dXkDzz6wov9BJfAIG6R9QQRztWFAM0CsaB6jpH_9n12EOQf-5CNxViHGew/w634-h356/%E5%B0%81%E9%9D%A2%E5%9B%BE-002.JPG)
 
 ## 三、客户端配置如下
 
